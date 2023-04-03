@@ -1,0 +1,70 @@
+/* Styles for the header */
+header {
+    background-color:#F67280;
+    padding: 20px;
+    text-align: center;
+    
+   }
+ 
+   h1 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px #666666;
+   }
+ 
+   /* Styles for the navigation menu */
+   nav {
+    background-color:pink;
+    padding: 10px;
+    text-align: center;
+   }
+ 
+   nav a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: none;
+     text-transform: uppercase;
+   }
+ 
+   nav a:hover {
+    color:purple;
+    transition: 0.5s;
+    text-decoration: none;
+   }
+ 
+   /* Styles for the main content area */
+   main {
+    margin: 0px;
+   }
+ 
+   h2 {
+    color: #F67280;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+   }
+ 
+   p {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+   }
+ 
+   img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #666666;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    /* object-fit: cover; */
+   }
